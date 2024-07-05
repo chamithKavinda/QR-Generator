@@ -10,8 +10,14 @@
 <body>
     <div class="contianer">
         <h3>Insert Your Text or URL</h3>
-        <input type="text" placeholder="Enter or Paste Text / link">
-        <button>Generate QR</button>
+        <input type="text" placeholder="Enter or Paste Text / link" id="qrText">
+        <button onclick="generateQR()">Generate QR</button>
+
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
     </div>
+
+    <script src="/main.js"></script>
 </body>
 </html>
