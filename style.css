@@ -10,12 +10,52 @@ body{
 }
 
 .contianer{
-    width: 400px;
-    padding: 25px 35px;
+    width: 450px;
+    padding: 35px 35px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: #fff;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.contianer h3{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-bottom: 8px;
+    color: rgb(72, 89, 136);
+}
+
+.contianer input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(72, 89, 136);
+    color: rgb(72, 89, 136);
+    font-size:medium;
+    outline: 0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.contianer button{
+    width: 100%;
+    height: 50px;
+    background: rgba(59, 68, 95, 0.467);
+    color: #fff;
+    font-weight: bolder;
+    font-size:medium;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.contianer button:hover{
+    background: rgb(72, 89, 136);
 }
